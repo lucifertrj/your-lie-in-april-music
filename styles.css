@@ -1,0 +1,37 @@
+.head {
+    text-align: center;
+}
+
+body {
+    margin: 1.2em;
+    background-color: lime;
+    animation: music 4s none 2s infinite;
+    padding-left: 5px;
+    overflow-x: hidden;
+}
+
+.arima:hover,
+.kaori:hover,
+.emi:hover,
+.takeshi:hover {
+    width: 150%;
+    perspective: 50px;
+}
+
+@keyframes music {
+    15% {
+        background-color: #00ffff;
+    }
+    35% {
+        background-color: #ffae17;
+    }
+    50% {
+        background-color: #c26033;
+    }
+    65% {
+        background-color: #fb8fa1;
+    }
+    80% {
+        background-color: #ffff03;
+    }
+}
