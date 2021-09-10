@@ -6,14 +6,6 @@
     text-align: center;
 }
 
-.arima:hover,
-.kaori:hover,
-.emi:hover,
-.takeshi:hover {
-    width: 120%;
-    perspective: 25px;
-}
-
 body {
     margin: 1.2em;
     background-color: #c3e1f8;
