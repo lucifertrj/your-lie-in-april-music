@@ -1,37 +1,61 @@
-.head {
-    text-align: center;
+.header {
+    height: 80%;
 }
 
-body {
-    margin: 1.2em;
-    background-color: lime;
-    animation: music 4s none 2s infinite;
-    padding-left: 5px;
-    overflow-x: hidden;
+.head {
+    text-align: center;
 }
 
 .arima:hover,
 .kaori:hover,
 .emi:hover,
 .takeshi:hover {
-    width: 150%;
-    perspective: 50px;
+    width: 120%;
+    perspective: 25px;
+}
+
+body {
+    margin: 1.2em;
+    background-color: #c3e1f8;
+    animation: music 4s none 2s infinite;
+    padding-left: 5px;
+    overflow-x: hidden;
 }
 
 @keyframes music {
     15% {
-        background-color: #00ffff;
+        background-color: #dfc8d0;
     }
     35% {
-        background-color: #ffae17;
+        background-color: #f7dcc4;
     }
     50% {
-        background-color: #c26033;
+        background-color: #fad0ef;
     }
     65% {
         background-color: #fb8fa1;
     }
     80% {
-        background-color: #ffff03;
+        background-color: #AEE1E1;
     }
+}
+
+.footer {
+    height: 20%;
+}
+
+.author {
+    text-align: center;
+    background-color: #f0ffff;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #f5193e;
 }
